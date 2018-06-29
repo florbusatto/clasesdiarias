@@ -1,0 +1,179 @@
+*{
+	margin:0 auto;
+	padding:0 auto;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(../img/travel.jpg);				
+	font-family: 'Roboto', sans-serif;		
+}			
+.mainContainer{
+	margin: 0 auto;
+	width:80%;		
+	height: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+}
+header{
+	width:100%;
+	background-color: #ec6bca;		
+	padding: 50px 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar{
+	width: 250%;		
+	height: 50px;									
+    position: relative;
+    z-index: 30;
+    margin: 10px;		
+    padding: 5px;		
+}
+header .navbar a{
+	text-decoration: none;
+	font-size: medium;
+	color:white;
+	margin-right:30px;		
+	float: right;
+}
+header .navbar a:hover{
+	font-weight: bolder;
+}
+.description{
+	background: #82E8B7;
+	padding: 20px;
+	width:70%;
+}
+#viajar	{
+	margin-bottom: 10px;		
+	padding: 5px;		
+	width: 100%;		
+	height: 320px;
+}
+.description article .banner{
+	margin-bottom: 10px;		
+	padding: 5px;
+}
+.description article .banner img{
+	width:100%;
+	vertical-align: top;
+}
+.description article h1{
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 32px;
+} 
+.description article p{
+	margin-bottom: 20px;
+	font-size: medium;
+	line-height: 20px;
+	text-align: justify;
+}
+aside{
+	width:30%;
+	background:#82E8B7;		
+	opacity: 0.8;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+aside .caja{
+	padding:80px 0;
+	border:1px solid black;		
+	width: 200px;		
+	height: 100px;		
+	background-color: #ec6bca;				
+}
+h2{	
+	color: white;		
+	font-size: medium;			
+	text-align: center;	
+}
+footer{
+	padding: 30px 20px;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	font-size: medium;		
+	background: #80E8B6;				
+	margin: 2px;
+}
+footer .social a{
+	text-decoration: none;
+	color:black;
+	margin-left: 20px;
+}
+footer .social a:hover{
+	text-decoration: none;
+}
+
+/*******************@MEDIA***************************/
+
+@media screen and (max-width: 800px){
+
+	header{
+		justify-content:space-around;
+	}
+
+	header .navbar a{
+		margin-right:5px;
+		font-size:medium;
+	}
+	.description{
+		width:100%;
+	}
+
+	aside{
+		width:100%;
+		flex-direction:row;
+	}
+
+	aside .caja{
+		width:30%;
+		padding:60px 0;
+		font-size:10px;
+	}
+
+}
+@media screen and (max-width:600px){
+			header{
+				flex-direction: column;
+				padding: 20px 0;
+			}
+
+			header .navbar{
+				width:100%;
+				text-align:center;			
+			}
+
+			header .navbar a{
+				margin:0 20px;
+			}
+
+			footer {
+				flex-direction:column;
+				text-align:center;
+			}
+			footer .autor{
+				order:1;
+			}
+			footer .social{
+				margin-bottom:20px;
+			}
+
+
+	}
+
+
+@media screen and (max-width:400px){
+	aside{
+		display: none;
+	}
+}

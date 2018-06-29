@@ -1,0 +1,51 @@
+*{
+	margin:0 auto;
+	padding:0;	
+	box-sizing: border-box;
+}		
+body{	
+	background-color: tomato;
+}
+.caja{
+	width:200px;
+	height:200px;
+	font-size: 50px;
+	text-align: center;
+}
+.padre{
+	height:400px;
+	width:400px;
+	background:orange;
+	position:relative;			
+}
+
+.roja{
+	background: red;
+	position:absolute;
+	top:0;
+	right:0;		
+	color: white;
+}
+
+.azul{
+	background: blue;		
+	color: white;		
+}
+.verde{
+	background: green;		
+	color: white;
+}
+
+.amarillo{
+	background: yellow;		
+	color: white;
+}
+
+.gris{
+	background: grey;		
+	color: white;
+}		
+.negra{
+	background: black;		
+	color: white;			
+}		

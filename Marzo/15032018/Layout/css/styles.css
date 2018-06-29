@@ -1,0 +1,25 @@
+*{
+	margin: 0 auto;	
+	box-sizing: border-box;
+}			
+body {
+	background-image: url("../img/colores.jpg");
+}			
+h1 {
+	margin: 0 auto;	
+	text-align: center;		
+	border: 1px solid #ccc;		
+	padding: 20px;
+	font-size: 10px;		
+	color: black;		
+	background: #ff126c;
+}	
+p {
+	margin: 0 auto;	
+	text-align: center;		
+	border: 1px solid #ccc;		
+	padding: 20px;
+	font-size: large;		
+	color: black;		
+	background: tomato;
+}	

@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #4a1145;
+	font-family: verdana;
+}
+.mainContainer {		
+	border-style: double;
+    border-color: coral;
+	height: 500px;
+	background: #8351b9;
+	display:flex;		
+	margin:20px;		
+	padding: 10px;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+	align-items:stretch;
+	align-content:space-between;
+}
+.caja {
+	width: 100px;
+	height: 100px;
+	background:#6110b978;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	font-size: medium;
+	color: white;
+
+}

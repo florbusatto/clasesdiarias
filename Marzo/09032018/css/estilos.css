@@ -1,0 +1,45 @@
+*{ 
+	margin:0 auto;	
+	box-sizing: border-box;
+ }
+header{ 	
+	  background: white; 	
+}
+h1{	
+   color:#bc3b69;
+   text-align: center;
+}
+p{	
+   color:#bc3b69;
+   text-align: center;	
+   margin:10px;	
+   padding: 5px;
+}
+nav{
+	text-align: center;
+}
+nav ul li {
+	display:inline-block;
+}
+a{
+	text-decoration: none;	
+	font-size: 1.2em;	
+	font-weight: bold;	
+	margin: 0 auto;	
+	color: #4a4a4a;
+}
+a:hover{
+	color:#bc3b69;
+}
+section .cuadradouno{
+	
+	background-color: tomato;	
+	margin: 10px;
+	width:47%;
+	height: 200px;
+	display: inline-block;	
+	padding: 10px;
+}
+
+
+

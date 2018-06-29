@@ -1,0 +1,30 @@
+*{
+	margin: 0 auto;	
+	box-sizing: border-box;
+}		
+
+
+.columnas {
+			background: #452745;
+			color: white;		
+			padding: 5px;		
+			margin: 5px;
+}		
+.col-md-1 {
+
+			padding: 5px;		
+}		
+.numero {
+			border:1px solid #ccc;
+			text-align: center;
+			padding: 20px;
+			font-size: 20px;
+}
+.caja {
+			background: #FF5F49;
+			color: #fff;
+			margin: 5px;			
+			padding: 5px;	
+
+}
+		

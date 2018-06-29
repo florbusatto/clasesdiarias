@@ -1,0 +1,14 @@
+body { 	
+	  background-color:  #ff3860;	
+}
+h1 { 	
+	  color: white; 	
+	  text-align: center;	
+	  font-size: 1.3em;	
+	  font-weight: bold;	
+	  font-family: sans-serif;	
+}
+ul li { 	
+	  list-style: none; 	
+}
+
