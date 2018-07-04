@@ -1,53 +1,61 @@
-.btnEditor{
+.btnEditor {
 	font-size: 20px;
-
 }
 
-tr{
+tr {
 	margin-top:10px;
 }
 
-td{
-	
+td {
 	text-align: center;
 	font-size: 10px;
 	color:grey;
 	padding: 10px;
-
-
 }
-.formulario{
+
+.formulario {
 	margin-top: 20px;
-
 }
-table {margin:0 auto;}
+
+table {	
+	 margin:0 auto;	
+}
 
 th, td, th{
-	font-size: 20px;
-	
+	font-size: 20px;	
 }
 
-th{padding:5px;}
+th {	
+	padding:5px;	
+}
 
-.clicked{
+.clicked {
 	background-color: blue;
 }
 
-.eliminar{font-size: 20px;}
+.eliminar {
+	font-size: 20px;	
+}
 
-button{ margin:5px; }
+button { 	
+	 margin:5px; 
+}
 
-table{
+table {
 	border:solid black 2px;
 }
 
-.btnagregar{
+.btnagregar {
 	margin-top:10px;
 	margin-left:150px;
 	margin:0 auto;
 }
-label{margin-left:10px;
-      margin-right:10px;}
-.centrar{
+
+label {	
+	  margin-left:10px;
+      margin-right:10px;	
+}
+
+.centrar {
 	margin-left:150px;
 }
