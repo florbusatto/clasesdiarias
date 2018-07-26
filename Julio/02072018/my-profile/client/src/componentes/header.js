@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import florenciabusatto from './../img/florenciabusatto.png';  
-import github from './../img/github.png';     
-import './../App.css';
+import './../css/header.css';	    
 
 class Header extends Component { 
 
   render() {
-    return (
-      <div className=mainContainer>
-            <h1>Marìa Florencia Busatto</h1> 
-            <p>Estudiante de Front End en Ada ITW.</p>
-            <img src={github} className="github" alt="github"/>                
+    return(
+      <div className="mainContainer">	
+       <div className = "info">
+            <h1 className ="name">Homero Jay Simpson</h1> 
+            <p className = "description-header">Nuclear safety Inspector</p>                
+       </div>	
+       <div className="socialMedia">    
+       </div>	
       </div>
              
     );

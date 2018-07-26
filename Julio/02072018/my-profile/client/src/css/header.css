@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box; 
+  margin: 0 auto;
+}	
+.info {	
+  background-image: url("../img/donut.jpg");	
+  height: 300px; 
+  margin-left: 10px;  	
+  width: 98%;	 
+}	
+.name { 
+  color: white;
+  font-family: arial; 	
+  font-size: larger; 	
+  font-weight: bold; 	
+  margin: 15px 10px; 
+  padding: 5px;	 
+  text-align: left;		  
+}		
+.description-header {
+  color: white;
+  font-family: arial;  
+  font-size: medium;  	
+  margin: 10px; 
+  padding: 5px;		
+  text-align: left;	
+}			
+.socialMedia a {
+  color: white;		
+  display: inline;
+  float: right;
+  font-family: arial;  
+  font-size: small; 	 	
+  margin: 0px; 
+  padding: 5px;		
+  text-decoration: none;		  
+}		

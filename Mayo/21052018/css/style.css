@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box; 
+  margin: 0 auto;
+}	
+body {
+  width: 100%;	
+  background-color: darkgrey; 
+  margin: 0 auto;
+}	
+figure img 	{
+  width: 30%;	
+  height: 320px;		
+  margin: 5px;	
+  border-radius: 12px;
+}	
