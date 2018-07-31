@@ -1,0 +1,55 @@
+* {	
+	box-sizing: border-box;
+	margin:0 auto;
+	padding:0;
+}
+body {
+	font-family: arial;	
+	font-size: medium;	
+	margin-left: 10px;
+}
+.mainContainer {
+	width:80%;	
+	height: 720px;
+	margin:0 auto;
+}
+.nav_bar {
+	margin:10px auto;
+	width:100%;
+}	
+a {
+	padding:5px;	
+	color: peru;
+}
+p {
+	padding:10px;
+	background-color: tomato;
+	color:white;
+	font-size:medium;
+}
+.nav {
+	padding:10px 0;
+	background-color: lightgrey;
+	font-size:medium;
+	display:flex;
+}
+.example {
+	background-color:tomato;
+	color:white;	
+	font-weight: bolder;
+}
+.left {
+	justify-content: flex-start;
+}
+.center {
+	justify-content: center;
+}
+.right {
+	justify-content: flex-end;
+}
+.spacearound {
+	justify-content: space-around;
+}
+.spacebetween {
+	justify-content: space-between;
+}

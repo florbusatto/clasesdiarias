@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>E-commerce con Flex!</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+	<div id="mainContainer">
+		<aside>
+			<div class="logo">
+				<img src="img/logo.jpg" alt="logo">
+			</div>
+			<div class="filtrar">
+				<h1>Ordenar por</h1>
+				<select name="text" class="seleccionar">	
+					<option value="value1" selected>Oferta del Mes</option>
+	  				<option value="value2">Màs recientes</option>
+	  				<option value="value3">Mayor precio</option>
+	  				<option value="value4">Menor precio</option>
+				</select>
+				<div class="checkbox" id="marcas">
+					<h1>Marca</h1>
+					<label><input type="checkbox" name="marca" id="marca1">BGH</label>
+					<label><input type="checkbox" name="marca" id="marca2">LG</label>
+					<label><input type="checkbox" name="marca" id="marca3">Sony</label>
+				</div>
+				<div class="checkbox" id="categorias">
+					<h4>Categoría</h4>
+					<label><input type="checkbox" name="categoria" id="cat1">
+					TVs 4K</label>
+					<label><input type="checkbox" name="categoria" id="cat2">Audio</label>
+					<label><input type="checkbox" name="categoria" id="cat3">3
+					Gaming</label>
+				</div>
+				<h5><i class="fas fa-truck"></i>Envío gratis</h5>
+			</div>
+		</aside>
+		<main>
+			<figure class="producto">
+				<i class="fas fa-truck"></i>
+				<img src="img/lg.jpg" alt="producto">
+				<figcaption><p>$100</p></figcaption>
+			</figure>
+			<figure class="producto">
+				<img src="img/ps4.jpg" alt="producto" id="ps4">
+				<figcaption><p>$100</p></figcaption>
+			</figure>
+			<figure class="producto">
+				<img src="http://via.placeholder.com/200x250" alt="producto">
+				<figcaption><p>$100</p></figcaption>
+			</figure>
+			<figure class="producto">
+				<i class="fas fa-truck"></i>
+				<img src="http://via.placeholder.com/200x250" alt="producto">
+				<figcaption><p>$100</p></figcaption>
+			</figure>
+			<figure class="producto">
+				<img src="http://via.placeholder.com/200x250" alt="producto">
+				<figcaption><p>$100</p></figcaption>
+			</figure>
+			<figure class="producto">
+				<i class="fas fa-truck"></i>
+				<img src="http://via.placeholder.com/200x250" alt="producto">
+				<figcaption><p>$100</p></figcaption>
+			</figure>
+		</main>	
+	</div>
+</body>
+</html>

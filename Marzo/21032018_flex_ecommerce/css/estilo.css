@@ -1,0 +1,103 @@
+* {	
+	box-sizing: border-box;
+	margin:0 auto;
+	padding:0;	
+}
+body {
+	font-family: Lato;	
+	font-size: small;	
+	background-image: url("../img/ecommercewall.jpg");	
+	background-repeat: no-repeat;	
+	background-size: 150%;
+}
+#mainContainer {
+	height: 720px;
+	width:80%;
+	margin: 0 auto;
+}
+aside {
+	float:left;
+	width:25%;
+	height:90%;		
+	margin-top: 15px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	border:1px outset;		
+	border-radius: 4px;		
+	background-color: #2485b1;
+}
+.logo {
+	margin:15px;
+}
+.logo img {
+	max-width: 100%;		
+	border-radius: 4px;
+}
+.filtrar {
+	margin-top:50px;
+	font-size:18px;
+	display:flex;
+	flex-direction:column;
+}		
+.filtrar h1 {
+	font-size: large;		
+	padding: 5px;
+}		
+.seleccionar {
+	font-size:medium;
+	margin:5px;				
+}		
+#marcas h1 {		
+	padding: 5px;	
+}
+.checkbox {
+	margin:10px 0;
+	display:flex;
+	flex-direction:column;		
+	text-align: center;
+}
+.checkbox input {
+	margin:0 10px;
+}
+
+aside .fa-truck {
+	margin:5px;
+}
+
+/* MAIN */
+
+main {
+	padding-left:100px;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.producto {
+	border:1px solid black;
+	margin:20px 10px;
+	position:relative;
+}
+
+.producto:hover {
+	border-color:white;
+	background-color: lightgrey;
+}
+figure img 	{	
+	width: 250px;
+	height:250px;	
+	padding: 10px;
+}
+.producto figcaption {
+	height:50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.producto .fa-truck {
+	position:absolute;
+	top:10px;
+	left:10px;
+}
