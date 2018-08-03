@@ -60,20 +60,15 @@ aside {
 .checkbox input {
 	margin:0 10px;
 }
-
 aside .fa-truck {
 	margin:5px;
 }
-
-/* MAIN */
-
-main {
+.products {
 	padding-left:100px;
 	display:flex;
 	flex-flow: row wrap;
 	justify-content: flex-start;
 }
-
 .producto {
 	border:1px solid black;
 	margin:20px 10px;
@@ -85,9 +80,10 @@ main {
 	background-color: lightgrey;
 }
 figure img 	{	
-	width: 250px;
-	height:250px;	
-	padding: 10px;
+	width: 200px;
+	height:200px;	
+	padding: 15px;		
+	margin-top: 15px;
 }
 .producto figcaption {
 	height:50px;
@@ -95,9 +91,7 @@ figure img 	{
 	justify-content: center;
 	align-items: center;
 }
-
 .producto .fa-truck {
 	position:absolute;
-	top:10px;
-	left:10px;
+	margin:10px;
 }
