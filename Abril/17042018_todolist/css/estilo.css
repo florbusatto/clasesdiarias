@@ -1,0 +1,50 @@
+* {	
+	box-sizing: border-box;
+	margin:0 auto;
+	padding:0;
+}
+body {
+	font-family: sans-serif;	
+	background-image: url("../img/lista.jpg");		
+	height: 720px;
+}
+#mainContainer {
+	width:40%;	
+	height: 320px;
+	margin:0 auto;	
+	margin-top: 100px;
+	padding:10px;
+	border:2px outset #449fc7;
+	background-color: #03a9f4eb;	
+}
+h1 {
+	  margin: 0 auto;	
+	  text-align: center;	
+	  font-size: larger;
+	  color:black;
+}	
+#inputContainer {
+	text-align: center;	
+	margin: 0 auto;	
+}
+#input {
+	margin: 5px;
+}
+#sendBtn {
+	background-color: white;
+	border-radius: 4px;	
+	width: 65px;		
+	margin: 5px;
+}		
+#deleteBtn {		
+	border-radius: 4px;	
+	width: 25px;		
+	height: 20px;		
+	margin: 5px;		
+}		
+ul {
+	margin: 10px;		
+	text-align: center;		
+	width: 20%;		
+	font-size: small;		
+}
