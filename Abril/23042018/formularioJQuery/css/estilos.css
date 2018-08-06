@@ -1,4 +1,91 @@
-#errores{
-	height: 100px;
-	background-color: plum;
+* {	
+	box-sizing: border-box;
+	margin:0 auto;
+	padding:0;	
+}
+
+body {
+	font-family: "verdana";	
+	font-size: small;	
+	width: 90%;	
+	border: solid 1px;	
+	margin: 0 auto;	
+	margin-top: 10px;	
+	padding: 10px;		
+	background-image: url("../img/wallcine.jpg");			
+	background-repeat: no-repeat;	
+	background-size: 100%;		
+	width: 480px;
+}		
+
+form #alquiler {
+    padding: 5px;	
+    margin: 5px;		
+}
+
+label {	
+	padding: 2px;	
+	margin: 10px;		
+	font-weight: bolder;
+}
+
+input {			
+	padding: 2px;
+	margin: 10px;		
+}		
+
+#errores {
+	height: 100px;	
+	width: 90%;	
+	border-radius: 4px;
+	background-color: skyblue;	
+	padding: 5px;	
+	margin: 5px;
+}
+
+#alquilar {	
+	padding: 2px;	
+	margin: 5px;
+}
+
+@media (max-width:480px) {		
+	body {
+		height:480px;		
+		width: 95%;			
+		padding: 2px;	
+		display: block;					
+		background-image:none;
+	}
+
+	form {		
+		width: 94%;
+		height:240px;
+		text-align:left;		
+		margin: 0 auto;
+	}			
+
+	input {	
+	padding: 3px;	
+	margin: 2px;				
+	width: 50%;		
+	display: inline-block;		
+}
+
+    #errores {
+	height: 80px;	
+	width: 85%;	
+	border-radius: 4px;
+	background-color: skyblue;	
+	margin: 3px;
+}		
+
+    #limpiar , #alquilar{			
+    width: 20%;
+	padding: 2px;	
+	margin: 5px;
+}
+
+   #terror, #comedia, #accion {			
+	margin: 0 auto;		
+	text-align: center;			
 }
