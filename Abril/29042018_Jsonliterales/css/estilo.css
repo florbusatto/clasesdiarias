@@ -1,0 +1,30 @@
+* {
+    margin:0 auto;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+  background-color: peru;  
+  max-height: 720px;  
+}
+
+section {
+   margin: 0 auto;	
+   margin-top: 10px;	
+   margin-left: 10px;	
+   border: 2px outset tomato;	
+   width: 30%;	
+   border-radius: 8px;	
+   text-align: center;
+}
+
+ul, li {
+   font-family: "Lato";
+   font-size: medium;	
+   font-weight: bold;
+   margin: 10px 5px;		
+   width: 30%;	
+   text-align: center;	
+   display: inline-block;
+}
